@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service - Custom Entity'
+define service ZSD_CDS_02_LOG_C431 {
+  expose zcds_02_log_c431 as Travel;
+}
