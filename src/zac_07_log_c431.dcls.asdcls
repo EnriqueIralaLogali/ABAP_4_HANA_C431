@@ -1,0 +1,12 @@
+@EndUserText.label: 'Access control - Mandatory'
+@MappingRole: true
+define role ZAC_07_LOG_C431 {
+    grant
+        select
+            on
+                ZCDS_13_LOG_C431
+                    where
+                        Status = 'P';
+                        
+                        
+}
